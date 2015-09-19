@@ -10,6 +10,16 @@ How to setup my laptop.
 
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install caskroom/cask/brew-cask
-brew cask install google-chrome
+brew install caskroom/cask/brew-cask wget
+brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred
 ```
+
+Then...
+
+1. Open and login to (in order)
+  * Dropbox
+  * 1Password
+  * Chrome
+  * Slack
+2. Wait for Dropbox to finish syncing...
+3. 
