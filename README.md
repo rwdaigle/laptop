@@ -14,12 +14,22 @@ brew install caskroom/cask/brew-cask wget
 brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab
 ```
 
-Then...
-
-1. Open and login to (in order)
+Then open and login to (in order)
   * Dropbox
   * 1Password
   * Chrome
   * Slack
-2. Wait for Dropbox to finish syncing...
-3. 
+
+## Configuration
+
+Once Dropbox is done syncing, link everything up:
+
+```shell
+ln -s ~/Dropbox\ \(Personal\) Dropbox
+ln -s ~/Dropbox/Personal/System/bin bin
+Dropbox/Personal/System/link_dotfiles
+sudo rm -rf Movies Music Pictures Public Documents
+ln -s ~/Dropbox/Personal/Documents .
+sudo mv Library/Preferences ~/.Trash/
+ln -s ~/Dropbox/Personal/Library/Preferences Library/Preferences
+```
