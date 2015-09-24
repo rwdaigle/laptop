@@ -25,6 +25,7 @@ Manually install the following from the App Store
 
 * Gifwit
 * Cloudapp
+* IA Writer
 
 ## Configuration
 
