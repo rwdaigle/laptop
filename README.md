@@ -11,12 +11,17 @@ How to setup my laptop.
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install caskroom/cask/brew-cask wget mackup
-brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab
+brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap
 ```
 
 Then open and login to (in order)
   * Dropbox
   * 1Password
+
+Manually install the following from the App Store
+
+* Gifwit
+* Cloudapp
 
 ## Configuration
 
@@ -29,3 +34,4 @@ ln -s ~/Dropbox/Personal/System/bin bin
 ln -s ~/Dropbox/Personal/Documents .
 mackup restore
 ```
+
