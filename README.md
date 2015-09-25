@@ -34,8 +34,7 @@ Once Dropbox is done syncing, link everything up and restore configuration:
 ```shell
 sudo rm -rf Public Documents
 ln -s ~/Dropbox\ \(Personal\) Dropbox
-ln -s ~/Dropbox/Personal/System/bin bin
-ln -s ~/Dropbox/Personal/Documents .
+ln -s ~/Dropbox/Documents .
 mackup restore
 ```
 
