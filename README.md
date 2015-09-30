@@ -11,12 +11,12 @@ How to setup my laptop.
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
-brew install caskroom/cask/brew-cask wget mackup docker heroku-toolbelt git rbenv ruby-build pow homebrew/versions/erlang-r17
+brew install caskroom/cask/brew-cask wget mackup docker heroku-toolbelt git rbenv ruby-build pow homebrew/versions/erlang-r17 gpg
 brew tap homebrew/dupes ; brew install apple-gcc42
 brew install --HEAD docker-machine
 wget https://github.com/elixir-lang/elixir/releases/download/v1.0.5/Precompiled.zip
 unzip Precompiled.zip -d ~/bin/elixir-1.0
-brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion
+brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion viscosity
 ```
 
 Then open and login to (in order)
