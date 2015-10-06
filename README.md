@@ -11,7 +11,7 @@ How to setup my laptop.
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
-brew install caskroom/cask/brew-cask wget mackup docker heroku-toolbelt git rbenv ruby-build pow homebrew/versions/erlang-r17 gpg
+brew install caskroom/cask/brew-cask wget mackup docker heroku-toolbelt git rbenv ruby-build pow homebrew/versions/erlang-r17 gpg ngrok
 brew tap homebrew/dupes ; brew install apple-gcc42
 brew install --HEAD docker-machine
 wget https://github.com/elixir-lang/elixir/releases/download/v1.0.5/Precompiled.zip
@@ -28,6 +28,7 @@ Manually install the following from the App Store
 * Gifwit
 * Cloudapp
 * IA Writer
+* Twitter
 
 ## Configuration
 
@@ -45,7 +46,7 @@ mackup restore
 ```shell
 mkdir ~/dev ~/dev/spreedly
 cd ~/dev/spreedly
-for i in "core" "id" "cryptoad" "docs" "bootstrap"; do
+for i in "core" "id" "cryptoad" "docs" "bootstrap" "internal-docs"; do
   git clone https://github.com/spreedly/$i.git
 done
 ```
