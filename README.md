@@ -16,19 +16,19 @@ brew tap homebrew/dupes ; brew install apple-gcc42
 brew install --HEAD docker-machine
 wget https://github.com/elixir-lang/elixir/releases/download/v1.0.5/Precompiled.zip
 unzip Precompiled.zip -d ~/bin/elixir-1.0
-brew cask install google-chrome 1password dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion viscosity
+brew cask install google-chrome dropbox atom sonos slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion viscosity
 ```
-
-Then open and login to (in order)
-  * Dropbox
-  * 1Password
 
 Manually install the following from the App Store
 
-* Gifwit
+* 1Password
 * Cloudapp
 * IA Writer
 * Twitter
+
+Then open and login to (in order)
+* Dropbox
+* 1Password
 
 ## Configuration
 
