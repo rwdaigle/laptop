@@ -25,11 +25,11 @@ Manually install the following from the App Store
 * Cloudapp
 * IA Writer
 * Twitter
-* Sonos controller
 
 Manually install:
 
 * [Atom](https://atom.io)
+* [Sonos controller](http://www.sonos.com/redir/controller_software_mac)
 
 Then open and login to (in order)
 * Dropbox
