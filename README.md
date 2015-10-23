@@ -26,8 +26,7 @@ Manually install the following from the App Store
 * IA Writer
 * Twitter
 * Gifwit
-* Dropshare
-* Skitch
+* Monosnap
 
 Manually install:
 
