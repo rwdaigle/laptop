@@ -25,6 +25,9 @@ Manually install the following from the App Store
 * Cloudapp
 * IA Writer
 * Twitter
+* Gifwit
+* Dropshare
+* Skitch
 
 Manually install:
 
@@ -32,6 +35,7 @@ Manually install:
 * [Sonos controller](http://www.sonos.com/redir/controller_software_mac)
 
 Then open and login to (in order)
+
 * Dropbox
 * 1Password
 
