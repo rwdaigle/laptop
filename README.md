@@ -47,6 +47,10 @@ ln -s ~/Dropbox/Documents .
 mackup restore
 ```
 
+Then manually:
+
+* Setup Fluid app to `https://calendar.google.com/calendar/render`
+
 ## Code
 
 ```shell
