@@ -16,7 +16,7 @@ brew tap homebrew/dupes ; brew install apple-gcc42
 brew install --HEAD docker-machine
 wget https://github.com/elixir-lang/elixir/releases/download/v1.0.5/Precompiled.zip
 unzip Precompiled.zip -d ~/bin/elixir-1.0
-brew cask install google-chrome dropbox slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion viscosity fluid
+brew cask install dropbox slack todoist bartender divvy stay bettertouchtool alfred ynab mailplane licecap vmware-fusion viscosity fluid
 ```
 
 Manually install the following from the App Store
@@ -30,6 +30,7 @@ Manually install the following from the App Store
 Manually install:
 
 * [Atom](https://atom.io)
+* [Chrome](https://www.google.com/chrome/browser/desktop/)
 
 Then open and login to (in order)
 
